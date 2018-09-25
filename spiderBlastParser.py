@@ -12,7 +12,7 @@ from Bio.Blast import NCBIXML
 import time
 
 print "\n\n"
-print "***Welcome to the BLAST XML Parser***"
+print "***Welcome to the BLAST Result XML Parser***"
 print "\n"
 
 #prompt user to enter path to XML file
@@ -65,7 +65,7 @@ for blast_record in blast_records:
             if i==1:
 
                 ##########################################################################
-                #this block defines variables for each blast output componentself.
+                #this block defines variables for each blast output component.
                 #some of these required additional string parsing
                 query = query
                 #parse out the text before the "[", in this case, the name of the protein
